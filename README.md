@@ -1,2 +1,15 @@
-# bigquery-sql-portfolio
-A collection of SQL queries written and executed in Google BigQuery, showcasing data analysis, aggregation, window functions, and time-series insights on public datasets. Focused on business-driven analytics and real-world reporting use cases.
+## BigQuery SQL Portfolio
+
+All SQL queries in this repository were written and executed using
+Google BigQuery on public datasets.
+
+Skills demonstrated:
+- Data aggregation and joins
+- Window functions
+- Time-series analysis
+- Query optimization
+
+Tools:
+- Google BigQuery
+- SQL (Standard SQL)
+
