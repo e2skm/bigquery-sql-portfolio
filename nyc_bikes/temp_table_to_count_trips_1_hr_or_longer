@@ -1,0 +1,11 @@
+WITH trips_1_hr_or_longer  AS(
+  SELECT  * 
+  FROM `bigquery-public-data.new_york_citibike.citibike_trips` 
+  WHERE tripduration >= 3600
+)
+## Count the number of queries that are 1hr and above
+SELECT
+  COUNT(*) AS cnt
+FROM
+  trips_1_hr_or_longer
+    
